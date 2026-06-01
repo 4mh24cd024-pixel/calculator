@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+button{
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.2s; /*for smooth pop when clicked*/
+}
+button:hover{
+    background-color: rgb(202, 199, 199);
+}
+button:active{
+    transform: scale(0.95); /*pop effect when the button is clicked*/
+}
+.box{
+    display: grid;
+    height: 580px;
+    width: 320px;
+    grid-template-rows:125px 375px;
+    margin: auto;
+    border-radius: 28px;
+}
+.screen{
+    display: grid;
+    grid-template-rows: 62.5px 62.5px;
+    margin: auto;
+}
+.pannel{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    gap: 20px;
+}
+.op{
+    background-color: #0a84ff;
+    color: white;
+}
+.op:hover{
+    background-color: rgb(68, 68, 235);
+}
+.eq{
+    background-color: rgb(62, 57, 57);
+    color: white;
+    transition: 0.2s;
+}
+.eq:hover{
+    background-color: rgb(34, 27, 27);
+}
+.eq:active{
+    transform:scale(0.95)
+}
+.d1{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 340px;
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: grey;
+    padding-top: 20px;
+}
+.d2{
+    color: white;
+    height: 60px;
+    width: 340px;
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+   
+}
+.d2:active{
+    font-size: 30px;
+    transform: scale(0.95);
+}
+#bc{
+    background-color:rgb(62, 57, 57) ;
+    color: white;
+}
+#ac{
+    background-color: rgb(62, 57, 57);
+    color: white;
+}
