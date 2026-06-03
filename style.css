@@ -26,7 +26,7 @@ button:active{
     display: grid;
     height: 580px;
     width: 320px;
-    grid-template-rows:125px 375px;
+    grid-template-rows:90px auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 28px;
@@ -34,8 +34,7 @@ button:active{
 }
 .screen{
     display: grid;
-    grid-template-rows: 62.5px 62.5px;
-    margin: auto;
+    grid-template-rows: 40px 60px;
 }
 .pannel{
     background-color: black;
