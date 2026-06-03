@@ -3,8 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
+
 button{
     height: 70px;
     width: 70px;
@@ -25,7 +25,8 @@ button:active{
     height: 580px;
     width: 320px;
     grid-template-rows:125px 375px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 28px;
 }
 .screen{
