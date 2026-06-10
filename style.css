@@ -40,7 +40,8 @@ button:active{
 }
 .screen{
     display: grid;
-    grid-template-rows: 40px 60px;
+    grid-template-rows: 35px 60px;
+    row-gap: 10px;
 }
 .pannel{
     background-color: black;
@@ -74,15 +75,15 @@ button:active{
 .d1{
     background-color: black;
     color: white;
-    height: 60px;
+    height: 40px;
     width: 340px;
     display: flex;
-    justify-content: end;
+    justify-content: right;
+    transform: translateY(-50px);
+    align-items: end;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     color: grey;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
 .d2{
     color: white;
@@ -90,9 +91,10 @@ button:active{
     width: 340px;
     display: flex;
     justify-content: end;
+    transform: translateY(-35px);
+    align-items: start;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-   
+    font-size: 55px;
 }
 .d2:active{
     font-size: 30px;

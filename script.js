@@ -14,6 +14,7 @@ nums.forEach((btn)=>{
            firstNum = d1.textContent;
         }
         else{
+            firstNum = String(Number(firstNum)+Number(secondNum))
             secondNum += btn.textContent
             d1.textContent = firstNum + operator + secondNum
         }
