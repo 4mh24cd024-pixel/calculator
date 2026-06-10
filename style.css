@@ -1,10 +1,11 @@
 body{
     margin: 0;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;/*horizontal center*/
+    align-items: flex-end; 
+
 }
 
 button{
@@ -24,13 +25,14 @@ button:active{
 }
 .box{
     display: grid;
-    height: 580px;
-    width: 320px;
+    height: auto;
+    width: auto;
     grid-template-rows:90px auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 28px;
     transform: translateY(-40px);
+    margin-bottom: 10px;
 }
 .screen{
     display: grid;
@@ -76,6 +78,7 @@ button:active{
     font-size: 25px;
     color: grey;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 .d2{
     color: white;
