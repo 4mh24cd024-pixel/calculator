@@ -5,7 +5,6 @@ body{
     display: flex;
     justify-content: center;/*horizontal center*/
     align-items: flex-end; 
-    border: 2px solid red;
 
 }
 @media(min-width:768px){
